@@ -7,5 +7,5 @@ import org.springframework.stereotype.Service
 @Service
 class ScreenBeagleService {
     fun createFistScreenBeagle() = ScreenBeagleBuilder
-    fun createLoginScreen() = LoginScreenBuilder
+    fun createLoginScreen() = LoginScreenBuilder()
 }

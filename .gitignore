@@ -4,7 +4,10 @@ target/
 !**/src/main/**/target/
 !**/src/test/**/target/
 !.DS_Store
+*.lock
 .DS_Store
+.DS_Store?
+._*
 *.DS_Store
 */.DS_Store
 iOS/.DS_Store
