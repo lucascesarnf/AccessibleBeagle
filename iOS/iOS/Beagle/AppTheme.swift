@@ -12,7 +12,6 @@ import BeagleSchema
 
 struct AppTheme {
     static var blue = #colorLiteral(red: 0.3333333333, green: 0.7450980392, blue: 0.9764705882, alpha: 1)
-    static var darkBlue = #colorLiteral(red: 0.2156862745, green: 0.5803921569, blue: 0.9843137255, alpha: 1)
     static let theme = Beagle.AppTheme(styles: [
         "Style.Text.Bold.System.16": styleTextBoldSystem20,
         "Style.Button.White.System.Bold.16": styleButtonWhiteSystemSemibold,
@@ -36,7 +35,7 @@ struct AppTheme {
         return {
             $0?.borderStyle = .roundedRect
             $0?.font = .systemFont(ofSize: 20.0)
-            let color = #colorLiteral(red: 0.3333333333, green: 0.7450980392, blue: 0.9764705882, alpha: 1)
+            let color = blue
             $0?.layer.borderColor = color.cgColor
             $0?.layer.borderWidth = 1
             $0?.textColor = UIColor.lightGray
